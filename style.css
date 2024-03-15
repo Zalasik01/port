@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.card-box {
+  width: 50px;
+  height: 90px;
+  padding: 15px;
+  background-color: red;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  text-align: center;
+  justify-content: center;
+  background-color: #513d77;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1099;
+  min-height: 4rem;
+}
+
+.navbar-nav {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 10px;
+  color: rgba(209, 209, 209, 0.862745098);
+  margin-right: 10px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-link:hover {
+  color: white;
+}
+
+/* Main */
+.main {
+  margin: 3%;
+  height: 100vh;
+  border-radius: 8px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}/*# sourceMappingURL=style.css.map */
